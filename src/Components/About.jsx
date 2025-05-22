@@ -6,10 +6,10 @@ const About = () => {
   return (
     <section
         id="about"
-      className="relative bg-cover bg-center py-24 px-6 min-h-screen flex items-center"
+      className="relative bg-cover bg-center py-24 px-6 h-[80vh] flex items-center"
       style={{ backgroundImage: `url(${aboutImage})` }}
     >
-      <div className="absolute inset-0 bg-black/70"></div>
+      <div className="absolute inset-0 bg-black/80"></div>
 
       <div className="relative z-10 max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12 text-white">
         {/* Text Section */}
