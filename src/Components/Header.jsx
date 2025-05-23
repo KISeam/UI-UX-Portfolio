@@ -34,7 +34,7 @@ const Header = () => {
 
           {/* Center Logo / Signature */}
           <h1 className="hidden md:block text-2xl font-bold tracking-wider font-[Pacifico]">
-            Jayed Uddin
+            Zayed Uddin
           </h1>
 
           {/* Desktop Navigation (Right) */}
@@ -65,7 +65,7 @@ const Header = () => {
           {/* Mobile Signature and Menu Button in Flex Row */}
           <div className="md:hidden flex justify-between items-center w-full">
             <h1 className="text-2xl font-bold tracking-wider font-[Pacifico]">
-              Jayed Uddin
+              Zayed Uddin
             </h1>
 
             <button

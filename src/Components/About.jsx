@@ -29,13 +29,6 @@ const About = () => {
           {/* Social Icons */}
           <div className="flex justify-center md:justify-start gap-6 mt-4">
             <a
-              href="mailto:youremail@example.com"
-              className="hover:text-[#CFA670] transition"
-              aria-label="Email"
-            >
-              <FaEnvelope size={22} />
-            </a>
-            <a
               href="https://github.com"
               target="_blank"
               rel="noopener noreferrer"

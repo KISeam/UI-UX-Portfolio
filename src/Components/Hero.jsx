@@ -5,7 +5,7 @@ import heroImage from "../assets/images/hero-background.jpg";
 const Hero = () => {
   return (
     <section
-    id="home"
+      id="home"
       className="relative h-[80vh] bg-cover bg-center scroll-smooth"
       style={{ backgroundImage: `url(${heroImage})` }}
     >
@@ -16,7 +16,7 @@ const Hero = () => {
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
         {/* Headings */}
         <h1 className="text-5xl md:text-6xl font-bold text-amber-200 drop-shadow-lg">
-          Hi, I'm Jayed Uddin
+          Hi, I'm Zayed Uddin
         </h1>
         <p className="mt-4 max-w-2xl text-lg md:text-xl text-gray-300">
           A passionate UI/UX designer crafting seamless digital experiences
