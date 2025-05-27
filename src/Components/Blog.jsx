@@ -6,7 +6,7 @@ import blogImg3 from "../assets/images/blog-3.png";
 
 const Blog = () => {
   return (
-    <section id="blog" className="bg-[#F9F1F1] py-[100px]">
+    <section id="blog" className="bg-[#F9F1F1] lg:py-20 py-12">
       <div className="container mx-auto px-4">
         {/* Intro */}
         <h1 className="text-5xl md:text-7xl leading-[1.2] font-bold text-[#4A060D] text-center mb-10">

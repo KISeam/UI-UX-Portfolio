@@ -1,5 +1,4 @@
-import React from "react";
-import Header from "../../Components/Header";
+import React, { useEffect } from "react";
 import Hero from "../../Components/Hero";
 import Portfolio from "../../Components/Portfolio";
 import ContactCTA from "../../Components/ContactCTA";
@@ -7,13 +6,16 @@ import Pricing from "../../Components/Pricing";
 import TestimonialCarousel from "../../Components/TestimonialCarousel";
 import Blog from "../../Components/Blog";
 import About from "../../Components/About";
-import Footer from "../../Components/Footer";
+import OurPartners from "../../Components/OurPartners";
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <div className="scroll-smooth">
-        <Header />
         <Hero />
         <Portfolio />
         <ContactCTA />
@@ -21,7 +23,7 @@ const Home = () => {
         <About />
         <Blog />
         <TestimonialCarousel />
-        <Footer />
+        <OurPartners />
       </div>
     </>
   );

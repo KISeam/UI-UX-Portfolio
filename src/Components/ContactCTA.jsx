@@ -4,7 +4,7 @@ import contactImage from "../assets/images/contact_us.jpg";
 const ContactCTA = () => {
   return (
     <section
-    id="contact"
+      id="contact"
       className="relative h-64 md:h-80 bg-cover bg-center flex items-center justify-center scroll-smooth"
       style={{ backgroundImage: `url(${contactImage})` }}
     >
@@ -19,10 +19,15 @@ const ContactCTA = () => {
         >
           Make an Online Enquiry
         </a>
-        <p className="mt-4 text-xs sm:text-sm md:text-base lg:text-lg text-white">
-          or <br />
-          Call <span className="text-white font-semibold text-sm md:text-base lg:text-lg">+61 40265 5311</span>
-        </p>
+        <a href="tel:+61402655311">
+          <p className="mt-4 text-xs sm:text-sm md:text-base lg:text-lg text-white">
+            or <br />
+            Call{" "}
+            <span className="text-white font-semibold text-sm md:text-base lg:text-lg">
+              +61 40265 5311
+            </span>
+          </p>
+        </a>
       </div>
     </section>
   );
