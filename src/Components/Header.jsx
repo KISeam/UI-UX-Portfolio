@@ -10,28 +10,58 @@ const Header = () => {
         <header className="bg-red-900 text-white">
           <div className="container mx-auto px-4">
             <div className="flex justify-center items-center py-4 gap-x-8">
-              {/* Desktop Navigation */}
-              <nav className="hidden md:flex items-center space-x-6">
-                <Link to="/" className="hover:text-red-300">
+              {/* Desktop Navigation (Left) */}
+              <nav className="hidden md:flex space-x-6">
+                <a
+                  href="#home"
+                  onClick={() => setIsMenuOpen(false)}
+                  className="hover:text-red-300"
+                >
                   HOME
-                </Link>
-                <a href="#portfolio" className="hover:text-red-300">
+                </a>
+                <a
+                  href="#portfolio"
+                  onClick={() => setIsMenuOpen(false)}
+                  className="hover:text-red-300"
+                >
                   PORTFOLIO
                 </a>
-                <a href="#about" className="hover:text-red-300">
+                <a
+                  href="#about"
+                  onClick={() => setIsMenuOpen(false)}
+                  className="hover:text-red-300"
+                >
                   ABOUT
                 </a>
-                <h1 className="hidden md:block text-2xl font-bold tracking-wider font-[Pacifico]">
-                  Zayed Uddin
-                </h1>
-                <a href="#services" className="hover:text-red-300">
+              </nav>
+
+              {/* Center Logo / Signature */}
+              <h1 className="hidden md:block text-2xl font-bold tracking-wider font-[Pacifico]">
+                Zayed Uddin
+              </h1>
+
+              {/* Desktop Navigation (Right) */}
+              <nav className="hidden md:flex space-x-6">
+                <a
+                  href="#services"
+                  onClick={() => setIsMenuOpen(false)}
+                  className="hover:text-red-300"
+                >
                   SERVICES
                 </a>
-                <a href="#contact" className="hover:text-red-300">
+                <a
+                  href="#contact"
+                  onClick={() => setIsMenuOpen(false)}
+                  className="hover:text-red-300"
+                >
                   CONTACT
                 </a>
-                <a href="/success-stories" className="hover:text-red-300">
-                  SUCCESS STORIES
+                <a
+                  href="#blog"
+                  onClick={() => setIsMenuOpen(false)}
+                  className="hover:text-red-300"
+                >
+                  BLOG
                 </a>
               </nav>
 
@@ -40,6 +70,7 @@ const Header = () => {
                 <h1 className="text-2xl font-bold tracking-wider font-[Pacifico]">
                   Zayed Uddin
                 </h1>
+
                 <button
                   className="p-2 cursor-pointer"
                   onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -77,7 +108,7 @@ const Header = () => {
                 <ul className="flex flex-col items-center py-4 space-y-4 text-lg font-medium">
                   <li>
                     <a
-                      href="/"
+                      href="#home"
                       onClick={() => setIsMenuOpen(false)}
                       className="transition-colors duration-200 hover:text-red-300"
                     >

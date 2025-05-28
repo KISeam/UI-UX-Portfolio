@@ -6,7 +6,6 @@ import Pricing from "../../Components/Pricing";
 import TestimonialCarousel from "../../Components/TestimonialCarousel";
 import Blog from "../../Components/Blog";
 import About from "../../Components/About";
-import OurPartners from "../../Components/OurPartners";
 
 const Home = () => {
   useEffect(() => {
@@ -23,7 +22,6 @@ const Home = () => {
         <About />
         <Blog />
         <TestimonialCarousel />
-        <OurPartners />
       </div>
     </>
   );
